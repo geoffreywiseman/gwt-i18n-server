@@ -13,7 +13,7 @@ import java.util.Date;
 public interface TestMessages extends Messages, ConstantsWithLookup {
     String simple();
 
-    @PluralText({
+    @AlternateMessage({
             "=0", "Zero apples",
             "one", "An {0} apple"
     })
